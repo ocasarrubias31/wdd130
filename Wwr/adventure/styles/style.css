@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Poor+Story&display=swap');
 #content {
     max-width: 1600px;
     margin: 0 auto;
@@ -5,6 +6,7 @@
 nav a{
     text-align: center;
     text-decoration: none;
+    padding: 35px;
 }
 #hero-msg h1,
 #hero-msg h4 {
@@ -18,6 +20,9 @@ main section{
 }
 body {
     background-color: azure;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
 header {
     background-color: rgb(114, 117, 121);
@@ -27,6 +32,9 @@ nav a:hover {
 }
 .book, .join{
     background-color: rgb(227, 224, 230);
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .book:hover, .join:hover{
     background-color: beige;
@@ -37,6 +45,8 @@ nav a:hover {
 }
 .msg{
     background-color: rgb(171, 173, 179);
+    font-family:'Poor Story', sans-serif, 'Courier New';
+     
 }
 footer{
     background-color: rgb(107, 126, 127);
@@ -48,22 +58,28 @@ h4,
 .book:hover, .join:hover,
 .msg h2{
     background-color: rgb(137, 163, 163);
+    font-size: 18px;
 }
 nav a:hover,
 .home-title{
     background-color: rgb(43, 101, 101);
+    font-size: 2em;
+    margin-top: 10px;
+    font-family: 'Poor Story', sans-serif,'Courier New';
 }
 .msg p,
 footer,
 footer a,
 footer a:hover{
     background-color: rgb(78, 106, 134);
+    font-size: .8em;
 }
 .logo{
     width: 80px;
 }
-.iconn{
+.icon{
     width: 80px;
+    padding-top: 10px;
 }
 #hero-img {
     width: 100%;
@@ -73,4 +89,35 @@ footer p a:hover {
 }
 footer p{
 font-size: 1.2em;
+}
+.msg{
+    font-size: 1.5em;
+}
+.h2{
+    margin: 0;
+}
+#logo_link{
+padding-top: 5x;
+}
+.msg{
+    padding: 35px;
+}
+.msg p{
+    padding-bottom: 15px;
+}
+footer{
+    padding: 25px 50px;
+    margin-top: 200px;
+}
+footer .social img{
+    padding-top: 15px;
+}
+.rivers-card, .camping-card, .rapids-card{
+    margin: 200px 0;
+}
+.card-img{
+    border: 10px;
+}
+main section img{
+    box-sizing: border-box;
 }
