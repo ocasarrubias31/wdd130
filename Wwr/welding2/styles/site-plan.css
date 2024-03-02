@@ -85,11 +85,12 @@ p {
   background-image: linear-gradient(to bottom, #140d35 0%, #0e0925 33%, #080515 66%, #020105 100%);
 }
 .secondary {
-  background-color: rgb(66, 96, 21);
+  background-image: linear-gradient(to bottom, #0a0e3f, #0047ab);
 }
 .accent1 {
-  background-color: blue;
+  background-image: linear-gradient(to bottom, #00ff00, #00cc00, #009900, #006600, #003300);
 }
+
 .accent2{
   background-color: var(--accent2-color);
 }
