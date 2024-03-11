@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&family=Pacifico&display=swap');
+
+.mainp{
+    font-family: 'Open Sans';
+}
+.image1{
+    max-width: 250px;
+    height: auto;
+}
+.image2{
+    max-width: 250px;
+    height: auto;
+}
