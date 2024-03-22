@@ -282,42 +282,6 @@ footer {
 }
 
 
-/* SECOND PAGE CSS */
-
-/* container */
-.second-page-main{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows:  1fr 1fr;
-
-    height: 100%;
-    width: 100%;
-}
-
-
-.mainp{
-    font-size: smaller;
-    grid-column: 2;
-    grid-row: 1;
-    position: relative;
-    right:50px
-}
-
-.bottom-left-icon{
-    max-width: 250px;
-    height: auto;
-    float: right;
-    grid-column: 1;
-    position: relative;
-    bottom: 1px;
  
-}
-
-
- 
-
-.second-page-msg{
-    grid-column: 3;
-}
 
 
