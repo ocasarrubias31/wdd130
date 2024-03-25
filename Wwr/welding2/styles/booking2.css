@@ -103,18 +103,17 @@ li{
  
 }
 .bookingp{
+    
     grid-column: 2;
-
     grid-row: 1;
     color: white;
-
     font-family: 'Open Sans';
     font-size: 50px;
     font-weight: bold;
     /* margin-left: 137px; */
     position: relative;
     top: 55px;
-    left: 152px;
+    left: 122px;
 }
 
 .bookingapt{
@@ -134,7 +133,14 @@ li{
     color: white;
     height: 30px;
     position: relative;
-    left: 183px;
+    left: 10px;
+
     width: fit-content;
 
 }
+/* .nav{
+    list-style-type: none;
+}
+.nav2{
+    list-style-type: none;
+} */
