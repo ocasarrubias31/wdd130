@@ -110,9 +110,10 @@ li{
     font-family: 'Open Sans';
     font-size: 50px;
     font-weight: bold;
-    margin-left: 131px;
+    /* margin-left: 137px; */
     position: relative;
     top: 55px;
+    left: 152px;
 }
 
 .bookingapt{
@@ -132,7 +133,7 @@ li{
     color: white;
     height: 30px;
     position: relative;
-    left: 160px;
+    left: 183px;
     width: fit-content;
 
 }
