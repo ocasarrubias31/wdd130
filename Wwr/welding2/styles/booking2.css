@@ -3,6 +3,46 @@
 .mainp{
     font-family: 'Open Sans';
 }
+body{
+    background-image: linear-gradient(to bottom, #140d35 0%, #0e0925 33%, #080515 66%, #020105 100%);
+    font-family:"Open Sans" ;
+}
+.mainp{
+    color: white;
+    text-align: center;
+}
+header{
+    display: grid;
+    grid-template-columns: 80px 1fr;
+
+}
+header img{
+    width: 100%;
+
+}
+.nav{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    background-image: linear-gradient(to bottom, #0a0e3f, #0047ab);
+    padding: 23px;
+}
+
+a{
+    color: aliceblue;
+}
+li{
+    color: aliceblue;
+}
+.nav li:nth-child(4) {
+    margin-left: 100px;
+  }
+.nav li:nth-child(2){
+    margin-left: 50px;
+}
+.nav li:nth-child(3){
+    margin-left: 60px;
+}
+
 .image1{
     max-width: 250px;
     height: auto;
@@ -10,4 +50,89 @@
 .image2{
     max-width: 250px;
     height: auto;
+}
+
+.nav2{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    background-image: linear-gradient(to bottom, #0a0e3f, #0047ab);
+    padding: 30px;
+}
+
+/* .third{
+    margin-right: 50px;
+} */
+.page-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows:  1fr 1fr 1fr;
+}
+
+/* .mainp{
+
+} */
+
+.image1 {
+
+    width: 250px;
+    max-height: 250px;
+    grid-column: 1; /* This places .image1 in the first column */
+    grid-row: 1; /* This places .image1 in the first row */
+
+    border: 2px white solid;
+    border-radius: 5px;
+}
+
+.image2 {
+    grid-row: 2; /* This places .image2 in the second row */
+    grid-column: 3;
+    border-radius: 5px;
+    border: white solid;
+    position: relative;
+    /* bottom: 100px; */
+    left: 100px;
+    
+    width: auto;
+    max-height: 1000px;
+}
+.mainp{
+    grid-column: 1;
+    grid-row: 2;
+    border: 2px white solid;
+ 
+}
+.bookingp{
+    grid-column: 2;
+
+    grid-row: 1;
+    color: white;
+
+    font-family: 'Open Sans';
+    font-size: 50px;
+    font-weight: bold;
+    margin-left: 131px;
+    position: relative;
+    top: 55px;
+}
+
+.bookingapt{
+    color: white;
+
+    grid-column: 2;
+    grid-row: 2;
+
+ 
+    background-image: linear-gradient(to bottom, #0a0e3f, #0047ab);
+    /* padding: 15px 30px; */
+    margin-top: 50px;
+    border-radius: 5px;
+    border: 2px solid aliceblue;
+ 
+    z-index: 1;
+    color: white;
+    height: 30px;
+    position: relative;
+    left: 160px;
+    width: fit-content;
+
 }
