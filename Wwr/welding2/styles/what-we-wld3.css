@@ -145,7 +145,7 @@ li{
     white-space: pre-wrap;
     position: relative;
     bottom: 65px;
-    left: 6px;
+    left: 7px;
     color: white;
     grid-row: 4;
     grid-column: 1;
@@ -153,6 +153,7 @@ li{
 }
 .words p{
     color:white;
+    font-weight: bold;
 }
 .process {
     color: white;
