@@ -81,14 +81,15 @@ li{
 
 .page-container{
     display: grid;
-    grid-template-columns:1fr 1fr auto 1fr 1fr ;
+    grid-template-columns:1fr 1fr 1fr 1fr ;
     grid-template-rows: auto 100px auto 1fr;
+    gap:30px;
 }
 
 .image1 {
     width: auto; /* Ensure the image fills the grid cell */
     height: auto; /* Maintain aspect ratio */
-    grid-column: 1 ; /* Spanning the first column */
+    grid-column: 3 ; /* Spanning the first column */
     grid-row: 3; /* Occupy the first row */
     border: 2px solid white;
     max-width: 250px;
@@ -101,7 +102,7 @@ li{
 .image2 {
     max-width: auto;
     height: auto;
-    grid-column: 5; /* Spanning the first column */
+    grid-column: 2; /* Spanning the first column */
     grid-row: 3; /* Occupy the first row */
  
     border-radius: 5px;
@@ -115,7 +116,7 @@ li{
     font-size: 21px;
     font-family: Italic;
     grid-row: 4;
-    grid-column: 5;
+    grid-column: 3;
     position: relative;
 
     color: aliceblue;
@@ -123,10 +124,7 @@ li{
     margin-top: 20px;
     
     white-space: pre-wrap;
-    position: relative;
-    
-    bottom: 20px;
-    right: 34px;
+
      
     border-radius: 5px;
     border: 2px solid white;
@@ -147,8 +145,8 @@ li{
     bottom: 65px;
     left: 7px;
     color: white;
-    grid-row: 4;
-    grid-column: 1;
+    grid-row: 5;
+    grid-column: 3;
 
 }
 .words p{
@@ -173,7 +171,7 @@ p ul{
   }
 .words{
     grid-row: 4;
-    grid-column: 1;
+    grid-column: 2;
     border-radius: 5px;
     border: 2px solid white;
     padding: 10px;
